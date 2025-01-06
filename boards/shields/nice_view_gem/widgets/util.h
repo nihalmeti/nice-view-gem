@@ -3,12 +3,12 @@
 #include <lvgl.h>
 #include <zmk/endpoints.h>
 
-#define SCREEN_WIDTH 68
-#define SCREEN_HEIGHT 160
+#define SCREEN_WIDTH 160
+#define SCREEN_HEIGHT 68
 
-#define BUFFER_SIZE 68
-#define BUFFER_OFFSET_MIDDLE -44
-#define BUFFER_OFFSET_BOTTOM -129
+#define BUFFER_SIZE 160 * 68
+#define BUFFER_OFFSET_MIDDLE -129
+#define BUFFER_OFFSET_BOTTOM -44
 
 #define LVGL_BACKGROUND                                                                            \
     IS_ENABLED(CONFIG_NICE_VIEW_WIDGET_INVERTED) ? lv_color_black() : lv_color_white()
