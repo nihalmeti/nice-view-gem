@@ -4,7 +4,7 @@
 #include <zephyr/kernel.h>
 #include "util.h"
 
-static void draw_animation(lv_obj_t *canvas);
+void draw_animation(lv_obj_t *canvas);
 
 struct zmk_widget_screen {
     sys_snode_t node;

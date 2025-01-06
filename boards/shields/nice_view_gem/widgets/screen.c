@@ -171,7 +171,7 @@ ZMK_SUBSCRIPTION(widget_output_status, zmk_usb_conn_state_changed);
 ZMK_SUBSCRIPTION(widget_output_status, zmk_ble_active_profile_changed);
 #endif
 
-static void draw_animation(lv_obj_t *canvas) {
+void draw_animation(lv_obj_t *canvas) {
 #if IS_ENABLED(CONFIG_NICE_VIEW_GEM_ANIMATION)
     lv_obj_t *art = lv_animimg_create(canvas);
     lv_obj_center(art);
