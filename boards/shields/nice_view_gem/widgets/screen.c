@@ -24,7 +24,6 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 #include "profile.h"
 #include "screen.h"
 // #include "wpm.h"
-#include "screen_peripheral.h"
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
@@ -171,28 +170,6 @@ ZMK_SUBSCRIPTION(widget_output_status, zmk_usb_conn_state_changed);
 ZMK_SUBSCRIPTION(widget_output_status, zmk_ble_active_profile_changed);
 #endif
 
-void draw_animation(lv_obj_t *canvas) {
-#if IS_ENABLED(CONFIG_NICE_VIEW_GEM_ANIMATION)
-    lv_obj_t *art = lv_animimg_create(canvas);
-    lv_obj_center(art);
-
-    lv_animimg_set_src(art, (const void **)anim_imgs, 16);
-    lv_animimg_set_duration(art, CONFIG_NICE_VIEW_GEM_ANIMATION_MS);
-    lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);
-    lv_animimg_start(art);
-#else
-    lv_obj_t *art = lv_img_create(canvas);
-
-    int length = sizeof(anim_imgs) / sizeof(anim_imgs[0]);
-    srand(k_uptime_get_32());
-    int random_index = rand() % length;
-
-    lv_img_set_src(art, anim_imgs[random_index]);
-#endif
-
-    lv_obj_align(art, LV_ALIGN_TOP_LEFT, 36, 0);
-}
-
 // /**
 //  * WPM status
 //  **/
@@ -230,7 +207,7 @@ int zmk_widget_screen_init(struct zmk_widget_screen *widget, lv_obj_t *parent) {
     lv_obj_t *top = lv_canvas_create(widget->obj);
     lv_obj_align(top, LV_ALIGN_TOP_RIGHT, 0, 0);
     lv_canvas_set_buffer(top, widget->cbuf, BUFFER_SIZE, BUFFER_SIZE, LV_IMG_CF_TRUE_COLOR);
-    draw_animation(widget->obj);
+
     // lv_obj_t *middle = lv_canvas_create(widget->obj);
     // lv_obj_align(middle, LV_ALIGN_TOP_RIGHT, BUFFER_OFFSET_MIDDLE, 0);
     // lv_canvas_set_buffer(middle, widget->cbuf2, BUFFER_SIZE, BUFFER_SIZE, LV_IMG_CF_TRUE_COLOR);
