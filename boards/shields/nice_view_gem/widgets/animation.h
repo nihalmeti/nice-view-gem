@@ -1,7 +1,7 @@
-#pragma once
+// #pragma once
 
-#include <lvgl.h>
-#include "util.h"
-#include "screen.h"
+// #include <lvgl.h>
+// #include "util.h"
+// #include "screen.h"
 
-void draw_animation(lv_obj_t *canvas);
+// void draw_animation(lv_obj_t *canvas);
