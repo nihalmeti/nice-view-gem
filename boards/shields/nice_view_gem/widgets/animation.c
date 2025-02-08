@@ -12,12 +12,17 @@ static pictures
 //     &pavane
 // };
 
-LV_IMG_DECLARE(wizard);
+// LV_IMG_DECLARE(wizard);
+
+// const lv_img_dsc_t *anim_imgs[] = {
+//     &wizard
+// };
+
+LV_IMG_DECLARE(Daniel);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &wizard
+    &Daniel
 };
-
 
 
 /*
