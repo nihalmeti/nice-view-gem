@@ -3,14 +3,22 @@
 #include "animation.h"
 
 /*
-meteor animations
+static pictures
 */
 
-LV_IMG_DECLARE(pavane);
+// LV_IMG_DECLARE(pavane);
+
+// const lv_img_dsc_t *anim_imgs[] = {
+//     &pavane
+// };
+
+LV_IMG_DECLARE(wizard);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &pavane
+    &wizard
 };
+
+
 
 /*
 crsytal animations
