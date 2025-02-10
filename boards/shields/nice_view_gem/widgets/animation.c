@@ -29,28 +29,28 @@ static pictures
 crsytal animations
 */
 
-LV_IMG_DECLARE(crystal_01);
-LV_IMG_DECLARE(crystal_02);
-LV_IMG_DECLARE(crystal_03);
-LV_IMG_DECLARE(crystal_04);
-LV_IMG_DECLARE(crystal_05);
-LV_IMG_DECLARE(crystal_06);
-LV_IMG_DECLARE(crystal_07);
-LV_IMG_DECLARE(crystal_08);
-LV_IMG_DECLARE(crystal_09);
-LV_IMG_DECLARE(crystal_10);
-LV_IMG_DECLARE(crystal_11);
-LV_IMG_DECLARE(crystal_12);
-LV_IMG_DECLARE(crystal_13);
-LV_IMG_DECLARE(crystal_14);
-LV_IMG_DECLARE(crystal_15);
-LV_IMG_DECLARE(crystal_16);
+// LV_IMG_DECLARE(crystal_01);
+// LV_IMG_DECLARE(crystal_02);
+// LV_IMG_DECLARE(crystal_03);
+// LV_IMG_DECLARE(crystal_04);
+// LV_IMG_DECLARE(crystal_05);
+// LV_IMG_DECLARE(crystal_06);
+// LV_IMG_DECLARE(crystal_07);
+// LV_IMG_DECLARE(crystal_08);
+// LV_IMG_DECLARE(crystal_09);
+// LV_IMG_DECLARE(crystal_10);
+// LV_IMG_DECLARE(crystal_11);
+// LV_IMG_DECLARE(crystal_12);
+// LV_IMG_DECLARE(crystal_13);
+// LV_IMG_DECLARE(crystal_14);
+// LV_IMG_DECLARE(crystal_15);
+// LV_IMG_DECLARE(crystal_16);
 
-const lv_img_dsc_t *anim_imgs[] = {
-    &crystal_01, &crystal_02, &crystal_03, &crystal_04, &crystal_05, &crystal_06,
-    &crystal_07, &crystal_08, &crystal_09, &crystal_10, &crystal_11, &crystal_12,
-    &crystal_13, &crystal_14, &crystal_15, &crystal_16,
-};
+// const lv_img_dsc_t *anim_imgs[] = {
+//     &crystal_01, &crystal_02, &crystal_03, &crystal_04, &crystal_05, &crystal_06,
+//     &crystal_07, &crystal_08, &crystal_09, &crystal_10, &crystal_11, &crystal_12,
+//     &crystal_13, &crystal_14, &crystal_15, &crystal_16,
+// };
 
 
 
@@ -157,6 +157,60 @@ mashle animations
 //     &mashle_67, &mashle_68, &mashle_69,
 // };
 
+/*
+ufo animations
+*/
+
+LV_IMG_DECLARE(ufo_01);
+LV_IMG_DECLARE(ufo_02);
+LV_IMG_DECLARE(ufo_03);
+LV_IMG_DECLARE(ufo_04);
+LV_IMG_DECLARE(ufo_05);
+LV_IMG_DECLARE(ufo_06);
+LV_IMG_DECLARE(ufo_07);
+LV_IMG_DECLARE(ufo_08);
+LV_IMG_DECLARE(ufo_09);
+LV_IMG_DECLARE(ufo_10);
+LV_IMG_DECLARE(ufo_11);
+LV_IMG_DECLARE(ufo_12);
+LV_IMG_DECLARE(ufo_13);
+LV_IMG_DECLARE(ufo_14);
+LV_IMG_DECLARE(ufo_15);
+LV_IMG_DECLARE(ufo_16);
+LV_IMG_DECLARE(ufo_17);
+LV_IMG_DECLARE(ufo_18);
+LV_IMG_DECLARE(ufo_19);
+LV_IMG_DECLARE(ufo_20);
+LV_IMG_DECLARE(ufo_21);
+LV_IMG_DECLARE(ufo_22);
+LV_IMG_DECLARE(ufo_23);
+LV_IMG_DECLARE(ufo_24);
+LV_IMG_DECLARE(ufo_25);
+LV_IMG_DECLARE(ufo_26);
+LV_IMG_DECLARE(ufo_27);
+LV_IMG_DECLARE(ufo_28);
+LV_IMG_DECLARE(ufo_29);
+LV_IMG_DECLARE(ufo_30);
+LV_IMG_DECLARE(ufo_31);
+LV_IMG_DECLARE(ufo_32);
+LV_IMG_DECLARE(ufo_33);
+LV_IMG_DECLARE(ufo_34);
+LV_IMG_DECLARE(ufo_35);
+LV_IMG_DECLARE(ufo_36);
+LV_IMG_DECLARE(ufo_37);
+LV_IMG_DECLARE(ufo_38);
+LV_IMG_DECLARE(ufo_39);
+LV_IMG_DECLARE(ufo_40);
+
+const lv_img_dsc_t *anim_imgs[] = {
+    &ufo_01, &ufo_02, &ufo_03, &ufo_04, &ufo_05, &ufo_06,
+    &ufo_07, &ufo_08, &ufo_09, &ufo_10, &ufo_11, &ufo_12,
+    &ufo_13, &ufo_14, &ufo_15, &ufo_16, &ufo_17, &ufo_18,
+    &ufo_19, &ufo_20, &ufo_21, &ufo_22, &ufo_23, &ufo_24,
+    &ufo_25, &ufo_26, &ufo_27, &ufo_28, &ufo_29, &ufo_30,
+    &ufo_31, &ufo_32, &ufo_33, &ufo_34, &ufo_35, &ufo_36,
+    &ufo_37, &ufo_38, &ufo_39, &ufo_40,
+};
 
 
 void draw_animation(lv_obj_t *canvas) {
@@ -164,7 +218,7 @@ void draw_animation(lv_obj_t *canvas) {
     lv_obj_t *art = lv_animimg_create(canvas);
     lv_obj_center(art);
 
-    lv_animimg_set_src(art, (const void **)anim_imgs, 16);   //change 16 to the number of images in the array
+    lv_animimg_set_src(art, (const void **)anim_imgs, 40);   //change 16 to the number of images in the array
     lv_animimg_set_duration(art, CONFIG_NICE_VIEW_GEM_ANIMATION_MS);
     lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);
     lv_animimg_start(art);
