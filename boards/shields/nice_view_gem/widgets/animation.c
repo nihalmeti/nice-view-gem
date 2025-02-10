@@ -161,15 +161,15 @@ mashle animations
 ufo animations
 */
 
-LV_IMG_DECLARE(ufo_01);
-LV_IMG_DECLARE(ufo_02);
-LV_IMG_DECLARE(ufo_03);
-LV_IMG_DECLARE(ufo_04);
-LV_IMG_DECLARE(ufo_05);
-LV_IMG_DECLARE(ufo_06);
-LV_IMG_DECLARE(ufo_07);
-LV_IMG_DECLARE(ufo_08);
-LV_IMG_DECLARE(ufo_09);
+LV_IMG_DECLARE(ufo_1);
+LV_IMG_DECLARE(ufo_2);
+LV_IMG_DECLARE(ufo_3);
+LV_IMG_DECLARE(ufo_4);
+LV_IMG_DECLARE(ufo_5);
+LV_IMG_DECLARE(ufo_6);
+LV_IMG_DECLARE(ufo_7);
+LV_IMG_DECLARE(ufo_8);
+LV_IMG_DECLARE(ufo_9);
 LV_IMG_DECLARE(ufo_10);
 LV_IMG_DECLARE(ufo_11);
 LV_IMG_DECLARE(ufo_12);
@@ -203,8 +203,8 @@ LV_IMG_DECLARE(ufo_39);
 LV_IMG_DECLARE(ufo_40);
 
 const lv_img_dsc_t *anim_imgs[] = {
-    &ufo_01, &ufo_02, &ufo_03, &ufo_04, &ufo_05, &ufo_06,
-    &ufo_07, &ufo_08, &ufo_09, &ufo_10, &ufo_11, &ufo_12,
+    &ufo_1, &ufo_2, &ufo_3, &ufo_4, &ufo_5, &ufo_6,
+    &ufo_7, &ufo_8, &ufo_9, &ufo_10, &ufo_11, &ufo_12,
     &ufo_13, &ufo_14, &ufo_15, &ufo_16, &ufo_17, &ufo_18,
     &ufo_19, &ufo_20, &ufo_21, &ufo_22, &ufo_23, &ufo_24,
     &ufo_25, &ufo_26, &ufo_27, &ufo_28, &ufo_29, &ufo_30,
