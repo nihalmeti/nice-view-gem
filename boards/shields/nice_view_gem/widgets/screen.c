@@ -201,17 +201,17 @@ static void draw_middle(lv_obj_t *widget, lv_color_t cbuf[], const struct status
     rotate_canvas(canvas, cbuf);
 }
 
-// static void draw_bottom(lv_obj_t *widget, lv_color_t cbuf[], const struct status_state *state) {
-//     lv_obj_t *canvas = lv_obj_get_child(widget, 2);
-//     fill_background(canvas);
+static void draw_bottom(lv_obj_t *widget, lv_color_t cbuf[], const struct status_state *state) {
+    lv_obj_t *canvas = lv_obj_get_child(widget, 2);
+    fill_background(canvas);
 
-//     // Draw widgets
-//     draw_profile_status(canvas, state);
-//     draw_layer_status(canvas, state);
+    // Draw widgets
+    // draw_profile_status(canvas, state);
+    // draw_layer_status(canvas, state);
 
-//     // Rotate for horizontal display
-//     rotate_canvas(canvas, cbuf);
-// }
+    // Rotate for horizontal display
+    rotate_canvas(canvas, cbuf);
+}
 
 /**
  * Battery status
@@ -251,9 +251,9 @@ ZMK_SUBSCRIPTION(widget_battery_status, zmk_battery_state_changed);
 ZMK_SUBSCRIPTION(widget_battery_status, zmk_usb_conn_state_changed);
 #endif /* IS_ENABLED(CONFIG_USB_DEVICE_STACK) */
 
-/**
- * Layer status
- **/
+// /**
+//  * Layer status
+//  **/
 
 // static void set_layer_status(struct zmk_widget_screen *widget, struct layer_status_state state) {
 //     widget->state.layer_index = state.index;
@@ -359,13 +359,13 @@ int zmk_widget_screen_init(struct zmk_widget_screen *widget, lv_obj_t *parent) {
     lv_obj_align(middle, LV_ALIGN_TOP_RIGHT, BUFFER_OFFSET_MIDDLE, 0);
     lv_canvas_set_buffer(middle, widget->cbuf2, BUFFER_SIZE, BUFFER_SIZE, LV_IMG_CF_TRUE_COLOR);
 
-    // lv_obj_t *bottom = lv_canvas_create(widget->obj);
-    // lv_obj_align(bottom, LV_ALIGN_TOP_RIGHT, BUFFER_OFFSET_BOTTOM, 0);
-    // lv_canvas_set_buffer(bottom, widget->cbuf3, BUFFER_SIZE, BUFFER_SIZE, LV_IMG_CF_TRUE_COLOR);
+    lv_obj_t *bottom = lv_canvas_create(widget->obj);
+    lv_obj_align(bottom, LV_ALIGN_TOP_RIGHT, BUFFER_OFFSET_BOTTOM, 0);
+    lv_canvas_set_buffer(bottom, widget->cbuf3, BUFFER_SIZE, BUFFER_SIZE, LV_IMG_CF_TRUE_COLOR);
 
     sys_slist_append(&widgets, &widget->node);
     widget_battery_status_init();
-    // widget_layer_status_init();
+    widget_layer_status_init();
     widget_output_status_init();
     widget_wpm_status_init();
 
