@@ -24,11 +24,11 @@ static pictures
 //     &Daniel
 // };
 
-LV_IMG_DECLARE(moon);
+// LV_IMG_DECLARE(moon);
 
-const lv_img_dsc_t *anim_imgs[] = {
-    &moon
-};
+// const lv_img_dsc_t *anim_imgs[] = {
+//     &moon
+// };
 
 /*
 crsytal animations
@@ -216,6 +216,50 @@ ufo animations
 //     &ufo_31, &ufo_32, &ufo_33, &ufo_34, &ufo_35, &ufo_36,
 //     &ufo_37, &ufo_38, &ufo_39, &ufo_40,
 // };
+
+/*
+idea animations
+*/
+
+LV_IMG_DECLARE(idea_1);
+LV_IMG_DECLARE(idea_2);
+LV_IMG_DECLARE(idea_3);
+LV_IMG_DECLARE(idea_4);
+LV_IMG_DECLARE(idea_5);
+LV_IMG_DECLARE(idea_6);
+LV_IMG_DECLARE(idea_7);
+LV_IMG_DECLARE(idea_8);
+LV_IMG_DECLARE(idea_9);
+LV_IMG_DECLARE(idea_10);
+LV_IMG_DECLARE(idea_11);
+LV_IMG_DECLARE(idea_12);
+LV_IMG_DECLARE(idea_13);
+LV_IMG_DECLARE(idea_14);
+LV_IMG_DECLARE(idea_15);
+LV_IMG_DECLARE(idea_16);
+LV_IMG_DECLARE(idea_17);
+LV_IMG_DECLARE(idea_18);
+LV_IMG_DECLARE(idea_19);
+LV_IMG_DECLARE(idea_20);
+LV_IMG_DECLARE(idea_21);
+LV_IMG_DECLARE(idea_22);
+LV_IMG_DECLARE(idea_23);
+LV_IMG_DECLARE(idea_24);
+LV_IMG_DECLARE(idea_25);
+LV_IMG_DECLARE(idea_26);
+LV_IMG_DECLARE(idea_27);
+LV_IMG_DECLARE(idea_28);
+LV_IMG_DECLARE(idea_29);
+LV_IMG_DECLARE(idea_30);
+
+const lv_img_dsc_t *anim_imgs[] = {
+    &idea_1, &idea_2, &idea_3, &idea_4, &idea_5, &idea_6,
+    &idea_7, &idea_8, &idea_9, &idea_10, &idea_11, &idea_12,
+    &idea_13, &idea_14, &idea_15, &idea_16, &idea_17, &idea_18,
+    &idea_19, &idea_20, &idea_21, &idea_22, &idea_23, &idea_24,
+    &idea_25, &idea_26, &idea_27, &idea_28, &idea_29, &idea_30,
+};
+
 
 
 void draw_animation(lv_obj_t *canvas) {
