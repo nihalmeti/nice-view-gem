@@ -10,7 +10,7 @@
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_1 uint8_t simon_cat_1_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -104,13 +104,14 @@ const lv_img_dsc_t simon_cat_1 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_2 uint8_t simon_cat_2_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
   0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
   0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #endif
+
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xfe, 0x0f, 0xfc, 0xf9, 0xff, 0xff, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x17, 0xff, 0xff, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -197,13 +198,14 @@ const lv_img_dsc_t simon_cat_2 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_3 uint8_t simon_cat_3_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
   0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
   0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #endif
+
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0xf0, 0x03, 0x06, 0x00, 0x00, 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xe8, 0x00, 0x00, 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -290,12 +292,12 @@ const lv_img_dsc_t simon_cat_3 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_4 uint8_t simon_cat_4_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
-  0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-  0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
+        0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
+        0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
-  0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-  0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
+        0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
+        0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #endif
 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0xf0, 0x03, 0x06, 0x00, 0x00, 
@@ -384,7 +386,7 @@ const lv_img_dsc_t simon_cat_4 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_5 uint8_t simon_cat_5_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -478,7 +480,7 @@ const lv_img_dsc_t simon_cat_5 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_6 uint8_t simon_cat_6_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -666,13 +668,14 @@ const lv_img_dsc_t simon_cat_7 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_8 uint8_t simon_cat_8_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
   0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
   0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #endif
+
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0xf0, 0x03, 0x06, 0x00, 0x00, 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xe8, 0x00, 0x00, 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -759,7 +762,7 @@ const lv_img_dsc_t simon_cat_8 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_9 uint8_t simon_cat_9_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -853,7 +856,7 @@ const lv_img_dsc_t simon_cat_9 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_10 uint8_t simon_cat_10_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -947,7 +950,7 @@ const lv_img_dsc_t simon_cat_10 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_11 uint8_t simon_cat_11_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1041,7 +1044,7 @@ const lv_img_dsc_t simon_cat_11 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_12 uint8_t simon_cat_12_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1135,7 +1138,7 @@ const lv_img_dsc_t simon_cat_12 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_13 uint8_t simon_cat_13_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1229,7 +1232,7 @@ const lv_img_dsc_t simon_cat_13 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_14 uint8_t simon_cat_14_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1323,13 +1326,14 @@ const lv_img_dsc_t simon_cat_14 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_15 uint8_t simon_cat_15_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
   0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
   0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #endif
+
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xfe, 0x0f, 0xfc, 0xf9, 0xff, 0xff, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x17, 0xff, 0xff, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -1416,7 +1420,7 @@ const lv_img_dsc_t simon_cat_15 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_16 uint8_t simon_cat_16_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1510,7 +1514,7 @@ const lv_img_dsc_t simon_cat_16 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_17 uint8_t simon_cat_17_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1604,7 +1608,7 @@ const lv_img_dsc_t simon_cat_17 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_18 uint8_t simon_cat_18_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1698,7 +1702,7 @@ const lv_img_dsc_t simon_cat_18 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_19 uint8_t simon_cat_19_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1792,7 +1796,7 @@ const lv_img_dsc_t simon_cat_19 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_20 uint8_t simon_cat_20_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1886,7 +1890,7 @@ const lv_img_dsc_t simon_cat_20 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_21 uint8_t simon_cat_21_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -1980,7 +1984,7 @@ const lv_img_dsc_t simon_cat_21 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_22 uint8_t simon_cat_22_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2074,7 +2078,7 @@ const lv_img_dsc_t simon_cat_22 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_23 uint8_t simon_cat_23_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2168,7 +2172,7 @@ const lv_img_dsc_t simon_cat_23 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_24 uint8_t simon_cat_24_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2262,7 +2266,7 @@ const lv_img_dsc_t simon_cat_24 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_25 uint8_t simon_cat_25_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2356,7 +2360,7 @@ const lv_img_dsc_t simon_cat_25 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_26 uint8_t simon_cat_26_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2450,7 +2454,7 @@ const lv_img_dsc_t simon_cat_26 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_27 uint8_t simon_cat_27_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2544,7 +2548,7 @@ const lv_img_dsc_t simon_cat_27 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_28 uint8_t simon_cat_28_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2638,7 +2642,7 @@ const lv_img_dsc_t simon_cat_28 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_29 uint8_t simon_cat_29_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2732,7 +2736,7 @@ const lv_img_dsc_t simon_cat_29 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_30 uint8_t simon_cat_30_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2826,7 +2830,7 @@ const lv_img_dsc_t simon_cat_30 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_31 uint8_t simon_cat_31_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -2920,7 +2924,7 @@ const lv_img_dsc_t simon_cat_31 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_32 uint8_t simon_cat_32_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3014,7 +3018,7 @@ const lv_img_dsc_t simon_cat_32 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_33 uint8_t simon_cat_33_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3108,7 +3112,7 @@ const lv_img_dsc_t simon_cat_33 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_34 uint8_t simon_cat_34_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3202,7 +3206,7 @@ const lv_img_dsc_t simon_cat_34 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_35 uint8_t simon_cat_35_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3296,7 +3300,7 @@ const lv_img_dsc_t simon_cat_35 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_36 uint8_t simon_cat_36_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3390,7 +3394,7 @@ const lv_img_dsc_t simon_cat_36 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_37 uint8_t simon_cat_37_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3484,7 +3488,7 @@ const lv_img_dsc_t simon_cat_37 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_38 uint8_t simon_cat_38_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3578,7 +3582,7 @@ const lv_img_dsc_t simon_cat_38 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_39 uint8_t simon_cat_39_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3672,7 +3676,7 @@ const lv_img_dsc_t simon_cat_39 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_40 uint8_t simon_cat_40_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3766,7 +3770,7 @@ const lv_img_dsc_t simon_cat_40 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_41 uint8_t simon_cat_41_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3860,7 +3864,7 @@ const lv_img_dsc_t simon_cat_41 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_42 uint8_t simon_cat_42_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -3954,13 +3958,14 @@ const lv_img_dsc_t simon_cat_42 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_43 uint8_t simon_cat_43_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
   0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
   0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #endif
+
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0xf0, 0x03, 0x06, 0x00, 0x00, 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xe8, 0x00, 0x00, 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -4047,7 +4052,7 @@ const lv_img_dsc_t simon_cat_43 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_44 uint8_t simon_cat_44_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -4141,13 +4146,14 @@ const lv_img_dsc_t simon_cat_44 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_45 uint8_t simon_cat_45_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
   0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
   0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
 #endif
+
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0xf0, 0x03, 0x06, 0x00, 0x00, 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xe8, 0x00, 0x00, 
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -4234,7 +4240,7 @@ const lv_img_dsc_t simon_cat_45 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_46 uint8_t simon_cat_46_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -4328,7 +4334,7 @@ const lv_img_dsc_t simon_cat_46 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_47 uint8_t simon_cat_47_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -4422,7 +4428,7 @@ const lv_img_dsc_t simon_cat_47 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_48 uint8_t simon_cat_48_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -4516,7 +4522,7 @@ const lv_img_dsc_t simon_cat_48 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_49 uint8_t simon_cat_49_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -4610,7 +4616,7 @@ const lv_img_dsc_t simon_cat_49 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_50 uint8_t simon_cat_50_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
@@ -4704,7 +4710,7 @@ const lv_img_dsc_t simon_cat_50 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SIMON_CAT_51 uint8_t simon_cat_51_map[] = {
-  #if CONFIG_NICE_VIEW_WIDGET_INVERTED
+#if CONFIG_NICE_VIEW_WIDGET_INVERTED
   0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
   0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
 #else
