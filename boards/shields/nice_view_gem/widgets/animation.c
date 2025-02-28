@@ -69,13 +69,13 @@ crsytal animations
 bongo animations
 */
 
-// LV_IMG_DECLARE(bongo_1);
-// LV_IMG_DECLARE(bongo_2);
+LV_IMG_DECLARE(bongo_1);
+LV_IMG_DECLARE(bongo_2);
 
-// const lv_img_dsc_t *anim_imgs[] = {
-//     &bongo_1, 
-//     &bongo_2
-// };
+const lv_img_dsc_t *anim_imgs[] = {
+    &bongo_1, 
+    &bongo_2
+};
 
 
 
@@ -270,76 +270,76 @@ idea animations
 Simon_cat animations
 */
 
-LV_IMG_DECLARE(simon_cat_1);
-LV_IMG_DECLARE(simon_cat_2);
-LV_IMG_DECLARE(simon_cat_3);
-LV_IMG_DECLARE(simon_cat_4);
-LV_IMG_DECLARE(simon_cat_5);
-LV_IMG_DECLARE(simon_cat_6);
-LV_IMG_DECLARE(simon_cat_7);
-LV_IMG_DECLARE(simon_cat_8);
-LV_IMG_DECLARE(simon_cat_9);
-LV_IMG_DECLARE(simon_cat_10);
-LV_IMG_DECLARE(simon_cat_11);
-LV_IMG_DECLARE(simon_cat_12);
-LV_IMG_DECLARE(simon_cat_13);
-LV_IMG_DECLARE(simon_cat_14);
-LV_IMG_DECLARE(simon_cat_15);
-LV_IMG_DECLARE(simon_cat_16);
-LV_IMG_DECLARE(simon_cat_17);
-LV_IMG_DECLARE(simon_cat_18);
-LV_IMG_DECLARE(simon_cat_19);
-LV_IMG_DECLARE(simon_cat_20);
-LV_IMG_DECLARE(simon_cat_21);
-LV_IMG_DECLARE(simon_cat_22);
-LV_IMG_DECLARE(simon_cat_23);
-LV_IMG_DECLARE(simon_cat_24);
-LV_IMG_DECLARE(simon_cat_25);
-LV_IMG_DECLARE(simon_cat_26);
-LV_IMG_DECLARE(simon_cat_27);
-LV_IMG_DECLARE(simon_cat_28);
-LV_IMG_DECLARE(simon_cat_29);
-LV_IMG_DECLARE(simon_cat_30);
-LV_IMG_DECLARE(simon_cat_31);
-LV_IMG_DECLARE(simon_cat_32);
-LV_IMG_DECLARE(simon_cat_33);
-LV_IMG_DECLARE(simon_cat_34);
-LV_IMG_DECLARE(simon_cat_35);
-LV_IMG_DECLARE(simon_cat_36);
-LV_IMG_DECLARE(simon_cat_37);
-LV_IMG_DECLARE(simon_cat_38);
-LV_IMG_DECLARE(simon_cat_39);
-LV_IMG_DECLARE(simon_cat_40);
-LV_IMG_DECLARE(simon_cat_41);
-LV_IMG_DECLARE(simon_cat_42);
-LV_IMG_DECLARE(simon_cat_43);
-LV_IMG_DECLARE(simon_cat_44);
-LV_IMG_DECLARE(simon_cat_45);
-LV_IMG_DECLARE(simon_cat_46);
-LV_IMG_DECLARE(simon_cat_47);
-LV_IMG_DECLARE(simon_cat_48);
-LV_IMG_DECLARE(simon_cat_49);
-LV_IMG_DECLARE(simon_cat_50);
-LV_IMG_DECLARE(simon_cat_51);
+// LV_IMG_DECLARE(simon_cat_1);
+// LV_IMG_DECLARE(simon_cat_2);
+// LV_IMG_DECLARE(simon_cat_3);
+// LV_IMG_DECLARE(simon_cat_4);
+// LV_IMG_DECLARE(simon_cat_5);
+// LV_IMG_DECLARE(simon_cat_6);
+// LV_IMG_DECLARE(simon_cat_7);
+// LV_IMG_DECLARE(simon_cat_8);
+// LV_IMG_DECLARE(simon_cat_9);
+// LV_IMG_DECLARE(simon_cat_10);
+// LV_IMG_DECLARE(simon_cat_11);
+// LV_IMG_DECLARE(simon_cat_12);
+// LV_IMG_DECLARE(simon_cat_13);
+// LV_IMG_DECLARE(simon_cat_14);
+// LV_IMG_DECLARE(simon_cat_15);
+// LV_IMG_DECLARE(simon_cat_16);
+// LV_IMG_DECLARE(simon_cat_17);
+// LV_IMG_DECLARE(simon_cat_18);
+// LV_IMG_DECLARE(simon_cat_19);
+// LV_IMG_DECLARE(simon_cat_20);
+// LV_IMG_DECLARE(simon_cat_21);
+// LV_IMG_DECLARE(simon_cat_22);
+// LV_IMG_DECLARE(simon_cat_23);
+// LV_IMG_DECLARE(simon_cat_24);
+// LV_IMG_DECLARE(simon_cat_25);
+// LV_IMG_DECLARE(simon_cat_26);
+// LV_IMG_DECLARE(simon_cat_27);
+// LV_IMG_DECLARE(simon_cat_28);
+// LV_IMG_DECLARE(simon_cat_29);
+// LV_IMG_DECLARE(simon_cat_30);
+// LV_IMG_DECLARE(simon_cat_31);
+// LV_IMG_DECLARE(simon_cat_32);
+// LV_IMG_DECLARE(simon_cat_33);
+// LV_IMG_DECLARE(simon_cat_34);
+// LV_IMG_DECLARE(simon_cat_35);
+// LV_IMG_DECLARE(simon_cat_36);
+// LV_IMG_DECLARE(simon_cat_37);
+// LV_IMG_DECLARE(simon_cat_38);
+// LV_IMG_DECLARE(simon_cat_39);
+// LV_IMG_DECLARE(simon_cat_40);
+// LV_IMG_DECLARE(simon_cat_41);
+// LV_IMG_DECLARE(simon_cat_42);
+// LV_IMG_DECLARE(simon_cat_43);
+// LV_IMG_DECLARE(simon_cat_44);
+// LV_IMG_DECLARE(simon_cat_45);
+// LV_IMG_DECLARE(simon_cat_46);
+// LV_IMG_DECLARE(simon_cat_47);
+// LV_IMG_DECLARE(simon_cat_48);
+// LV_IMG_DECLARE(simon_cat_49);
+// LV_IMG_DECLARE(simon_cat_50);
+// LV_IMG_DECLARE(simon_cat_51);
 
-const lv_img_dsc_t *anim_imgs[] = {
-    &simon_cat_1, &simon_cat_2, &simon_cat_3, &simon_cat_4, &simon_cat_5, &simon_cat_6,
-    &simon_cat_7, &simon_cat_8, &simon_cat_9, &simon_cat_10, &simon_cat_11, &simon_cat_12,
-    &simon_cat_13, &simon_cat_14, &simon_cat_15, &simon_cat_16, &simon_cat_17, &simon_cat_18,
-    &simon_cat_19, &simon_cat_20, &simon_cat_21, &simon_cat_22, &simon_cat_23, &simon_cat_24,
-    &simon_cat_25, &simon_cat_26, &simon_cat_27, &simon_cat_28, &simon_cat_29, &simon_cat_30,
-    &simon_cat_31, &simon_cat_32, &simon_cat_33, &simon_cat_34, &simon_cat_35, &simon_cat_36,
-    &simon_cat_37, &simon_cat_38, &simon_cat_39, &simon_cat_40, &simon_cat_41, &simon_cat_42,
-    &simon_cat_43, &simon_cat_44, &simon_cat_45, &simon_cat_46, &simon_cat_47, &simon_cat_48,
-    &simon_cat_49, &simon_cat_50, &simon_cat_51,
-};
+// const lv_img_dsc_t *anim_imgs[] = {
+//     &simon_cat_1, &simon_cat_2, &simon_cat_3, &simon_cat_4, &simon_cat_5, &simon_cat_6,
+//     &simon_cat_7, &simon_cat_8, &simon_cat_9, &simon_cat_10, &simon_cat_11, &simon_cat_12,
+//     &simon_cat_13, &simon_cat_14, &simon_cat_15, &simon_cat_16, &simon_cat_17, &simon_cat_18,
+//     &simon_cat_19, &simon_cat_20, &simon_cat_21, &simon_cat_22, &simon_cat_23, &simon_cat_24,
+//     &simon_cat_25, &simon_cat_26, &simon_cat_27, &simon_cat_28, &simon_cat_29, &simon_cat_30,
+//     &simon_cat_31, &simon_cat_32, &simon_cat_33, &simon_cat_34, &simon_cat_35, &simon_cat_36,
+//     &simon_cat_37, &simon_cat_38, &simon_cat_39, &simon_cat_40, &simon_cat_41, &simon_cat_42,
+//     &simon_cat_43, &simon_cat_44, &simon_cat_45, &simon_cat_46, &simon_cat_47, &simon_cat_48,
+//     &simon_cat_49, &simon_cat_50, &simon_cat_51,
+// };
 
 void draw_animation(lv_obj_t *canvas) {
 #if IS_ENABLED(CONFIG_NICE_VIEW_GEM_ANIMATION)
     lv_obj_t *art = lv_animimg_create(canvas);
     lv_obj_center(art);
 
-    lv_animimg_set_src(art, (const void **)anim_imgs, 51);   //change 16 to the number of images in the array
+    lv_animimg_set_src(art, (const void **)anim_imgs, 2);   //change 16 to the number of images in the array
     lv_animimg_set_duration(art, CONFIG_NICE_VIEW_GEM_ANIMATION_MS);
     lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);
     lv_animimg_start(art);
