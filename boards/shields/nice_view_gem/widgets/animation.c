@@ -18,11 +18,11 @@ static pictures
 //     &wizard
 // };
 
-// LV_IMG_DECLARE(Daniel);
+LV_IMG_DECLARE(Daniel);
 
-// const lv_img_dsc_t *anim_imgs[] = {
-//     &Daniel
-// };
+const lv_img_dsc_t *anim_imgs[] = {
+    &Daniel
+};
 
 // LV_IMG_DECLARE(moon);
 
@@ -30,11 +30,11 @@ static pictures
 //     &moon
 // };
 
-LV_IMG_DECLARE(puck);
+// LV_IMG_DECLARE(puck);
 
-const lv_img_dsc_t *anim_imgs[] = {
-    &puck
-};
+// const lv_img_dsc_t *anim_imgs[] = {
+//     &puck
+// };
 
 /*
 crsytal animations
