@@ -6,6 +6,12 @@
 static pictures
 */
 
+LV_IMG_DECLARE(smirk_cat);
+
+const lv_img_dsc_t *anim_imgs[] = {
+    &smirk_cat
+};
+
 // LV_IMG_DECLARE(pavane);
 
 // const lv_img_dsc_t *anim_imgs[] = {
@@ -69,13 +75,13 @@ crsytal animations
 bongo animations
 */
 
-LV_IMG_DECLARE(bongo_1);
-LV_IMG_DECLARE(bongo_2);
+// LV_IMG_DECLARE(bongo_1);
+// LV_IMG_DECLARE(bongo_2);
 
-const lv_img_dsc_t *anim_imgs[] = {
-    &bongo_1, 
-    &bongo_2
-};
+// const lv_img_dsc_t *anim_imgs[] = {
+//     &bongo_1, 
+//     &bongo_2
+// };
 
 
 
@@ -339,7 +345,7 @@ void draw_animation(lv_obj_t *canvas) {
     lv_obj_t *art = lv_animimg_create(canvas);
     lv_obj_center(art);
 
-    lv_animimg_set_src(art, (const void **)anim_imgs, 2);   //change 16 to the number of images in the array
+    lv_animimg_set_src(art, (const void **)anim_imgs, 1);   //change 16 to the number of images in the array
     lv_animimg_set_duration(art, CONFIG_NICE_VIEW_GEM_ANIMATION_MS);
     lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);
     lv_animimg_start(art);
